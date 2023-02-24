@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Feb 22 17:33:40 2023
+# Process ID: 11920
+# Current directory: F:/Task/Mini_Complete/SRT/srt_div
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent404 F:\Task\Mini_Complete\SRT\srt_div\srt_div.xpr
+# Log file: F:/Task/Mini_Complete/SRT/srt_div/vivado.log
+# Journal file: F:/Task/Mini_Complete/SRT/srt_div\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Task/Mini_Complete/SRT/srt_div/srt_div.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="srt_top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="srt_top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="765151516fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="220"></NameColumnWidth>
+      <ValueColumnWidth column_width="250"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/srt_top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/ivalid" type="logic">
+      <obj_property name="ElementShortName">ivalid</obj_property>
+      <obj_property name="ObjectShortName">ivalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/ovalid" type="logic">
+      <obj_property name="ElementShortName">ovalid</obj_property>
+      <obj_property name="ObjectShortName">ovalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/dividend" type="array">
+      <obj_property name="ElementShortName">dividend[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[15:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/quie" type="array">
+      <obj_property name="ElementShortName">quie[15:0]</obj_property>
+      <obj_property name="ObjectShortName">quie[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/dividend_exp" type="array">
+      <obj_property name="ElementShortName">dividend_exp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend_exp[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/divisor_exp" type="array">
+      <obj_property name="ElementShortName">divisor_exp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor_exp[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/dividend_man" type="array">
+      <obj_property name="ElementShortName">dividend_man[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend_man[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/divisor_man" type="array">
+      <obj_property name="ElementShortName">divisor_man[9:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor_man[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/quie_exp" type="array">
+      <obj_property name="ElementShortName">quie_exp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">quie_exp[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/quie_man" type="array">
+      <obj_property name="ElementShortName">quie_man[10:0]</obj_property>
+      <obj_property name="ObjectShortName">quie_man[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/dividend" type="array">
+      <obj_property name="ElementShortName">dividend[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/divisor" type="array">
+      <obj_property name="ElementShortName">divisor[15:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/ivalid" type="logic">
+      <obj_property name="ElementShortName">ivalid</obj_property>
+      <obj_property name="ObjectShortName">ivalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/quie" type="array">
+      <obj_property name="ElementShortName">quie[15:0]</obj_property>
+      <obj_property name="ObjectShortName">quie[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/ovalid" type="logic">
+      <obj_property name="ElementShortName">ovalid</obj_property>
+      <obj_property name="ObjectShortName">ovalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/dividend1" type="array">
+      <obj_property name="ElementShortName">dividend1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend1[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/divisor1" type="array">
+      <obj_property name="ElementShortName">divisor1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor1[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/quie_ss" type="logic">
+      <obj_property name="ElementShortName">quie_ss</obj_property>
+      <obj_property name="ObjectShortName">quie_ss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/quie1" type="array">
+      <obj_property name="ElementShortName">quie1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">quie1[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/quie_exp1" type="array">
+      <obj_property name="ElementShortName">quie_exp1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">quie_exp1[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/quie_exp" type="array">
+      <obj_property name="ElementShortName">quie_exp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">quie_exp[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/divisor_exp" type="array">
+      <obj_property name="ElementShortName">divisor_exp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">divisor_exp[4:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/dividend_exp" type="array">
+      <obj_property name="ElementShortName">dividend_exp[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dividend_exp[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/srt_top_tb/srt_top_inst/nflg" type="logic">
+      <obj_property name="ElementShortName">nflg</obj_property>
+      <obj_property name="ObjectShortName">nflg</obj_property>
+   </wvobject>
+</wave_config>
